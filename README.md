@@ -9,6 +9,7 @@ npm install react-native-starrating --save
 
 Install the package via npm install react-native-starrating --save. Then import it in your JavaScript file via import StarRating from 'react-native-starrating'. Check out an example usage below:
 
+```js
 import StarRating from 'react-native-starrating';
 
 class ExampleComponent extends React.Component{
@@ -27,3 +28,4 @@ class ExampleComponent extends React.Component{
     );
   }
 }
+```
