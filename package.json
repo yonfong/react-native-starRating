@@ -1,0 +1,28 @@
+{
+  "name": "react-native-starrating",
+  "version": "1.0.0",
+  "description": "a react-native component for display interactive star ratings",
+  "main": "StarRating.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react-native": "^0.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluesky0109/react-native-starRating.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "star",
+    "rating"
+  ],
+  "author": "bluesky0109（https://github.com/bluesky0109)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluesky0109/react-native-starRating/issues"
+  },
+  "homepage": "https://github.com/bluesky0109/react-native-starRating#readme"
+}
