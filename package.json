@@ -1,13 +1,13 @@
 {
   "name": "react-native-starrating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a react-native component for display interactive star ratings",
   "main": "StarRating.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react-native": "^0.18.1"
+    "react-native": "^0.25.1",
   },
   "repository": {
     "type": "git",
