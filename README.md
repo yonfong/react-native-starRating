@@ -13,7 +13,7 @@ Install the package via npm install react-native-starrating --save. Then import 
 import StarRating from 'react-native-starrating';
 
 class ExampleComponent extends React.Component{
-  onStarChange(value) {
+  onStarRatingPress(value) {
     console.log('Rated ' + value + ' stars!');
   }
   render() {
@@ -23,7 +23,7 @@ class ExampleComponent extends React.Component{
         rating={3}
         disabled={false}
         starSize={15}
-        onStarChange={this.onStarRatingPress.bind(this)}
+        onStarChange={(value) => this.onStarRatingPress(value)}
       />
     );
   }
